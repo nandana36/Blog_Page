@@ -1,0 +1,47 @@
+.image-container{
+ background-image: url(./vioback.jpg);
+ background-size: cover;
+ height: 100vh;
+ width: 100%;
+position: fixed;
+
+ opacity:0.7;
+}
+.flex-container{
+    position: relative;
+    display:inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 50px;
+    height: 80vh;
+    justify-content: center;
+    
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.438);
+    margin-top:5px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+}
+
+.btn:hover{
+    background-color: purple;
+    border: 2.5px solid black;
+}
+.w-100{
+    margin-top: 10px;
+   
+}
+#signup{
+    border: 5px solid black;
+    width:50%;
+    height: auto;
+   
+}
+
+span{
+    font-size:1.5rem;
+    font-weight: 500;
+    color: black;
+}
+
